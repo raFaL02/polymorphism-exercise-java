@@ -25,6 +25,7 @@ public class Program {
             System.out.print("Outsourced (y/n)? ");
             char ch = sc.next().charAt(0);
             System.out.print("Name: ");
+            sc.nextLine();
             String name = sc.nextLine();
             System.out.print("Hours: ");
             int hours = sc.nextInt();
